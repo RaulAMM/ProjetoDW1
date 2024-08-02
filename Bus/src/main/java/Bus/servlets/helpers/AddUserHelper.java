@@ -9,7 +9,7 @@ import Bus.utils.PasswordEncode;
 import Bus.utils.SearcherDataSource;
 
 public class AddUserHelper {
-	@Override
+	
 	public String execute(HttpServletRequest req, HttpServletResponse resp) throws Exception {
 		Long CPF = req.getDateHeader("CPF");
 		Long RG = req.getDateHeader("RG");
