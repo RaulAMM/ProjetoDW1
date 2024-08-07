@@ -28,18 +28,34 @@
   				<h1 class="text-center">Cadastre-se</h1>
   				
   				<div class="mb-2">
+				  <label for="CPF">CPF*</label>
+				  <input type="int" class="form-control"  
+				  	name="CPF" id="CPF" minlenght="11" maxlenght="11"
+				  	required="required">
+				  <span id="0"></span>
+				</div>
+				
+				<div class="mb-2">
+				  <label for="RG">RG*</label>
+				  <input type="text" class="form-control"  
+				  	name="RG" id="RG" minlenght="9" maxlenght="9"
+				  	required="required">
+				  <span id="1"></span>
+				</div>
+  				
+  				<div class="mb-2">
 				  <label for="Nome">Nome completo*</label>
 				  <input type="text" class="form-control"  
 				  	name="Nome" id="Nome" minlength="3" maxlength="50"
 				  	required="required">
-				  <span id="0"></span>
+				  <span id="2"></span>
 				</div>
 				
 				<div class="mb-2">
 				  <label for="Email">E-mail*</label>
 				  <input type="email" class="form-control"  
 				  	name="Email" id="Email" required="required">
-				  <span id="1"></span>
+				  <span id="3"></span>
 				</div>
 				
 				<div class="mb-2">
@@ -48,7 +64,7 @@
 				  	name="Senha" id="Senha"
 				  	minlength="6" maxlength="12"
 				  	 required="required">
-				  <span id="2"></span>
+				  <span id="4"></span>
 				</div>
 				
 				<div class="mb-2">
@@ -57,7 +73,7 @@
 				  	name="confirmPassword" id="confirmPassword"
 				  	minlength="6" maxlength="12"
 				  	 required="required">
-				  <span id="3"></span>
+				  <span id="5"></span>
 				</div>
 				
 				<div class="mb-2">
@@ -65,7 +81,7 @@
 				  <input type="date" class="form-control"  
 				  	name="dateOfBirth" id="dateOfBirth"
 				  	required="required">
-				  <span id="4"></span>
+				  <span id="6"></span>
 				</div>
 				
 				<button type="submit" class="btn btn-primary mb-3">
